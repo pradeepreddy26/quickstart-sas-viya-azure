@@ -40,7 +40,7 @@
   tags:
     - update_sshd
     
-  - name: Disable java validation
+- name: Disable java validation
   hosts: [sas_servers]
   become_user: root
   become: yes
